@@ -17,10 +17,10 @@ html {
 	list-style: none;
   }
   
-  img {
+img {
 	max-width: 100%;
 	height: auto;
-  }
+}
 
 h1 {
 	color : violet;
@@ -30,4 +30,7 @@ canvas {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+body {
+	background: URL("bouncy-balls.jpeg") center;
 }

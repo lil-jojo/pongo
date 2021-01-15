@@ -14,7 +14,7 @@ let height = 10
 setScreenSize()
 
 function draw() {
-	screen.fillStyle = "#FFFF00"
+	screen.fillStyle = "#000000"
 	screen.fillRect(absX-(width/2), absY-(height/2), width, height)
 }
 
@@ -26,7 +26,7 @@ function gameLoop() {
 function setScreenSize(){
 	canvas.width = window.innerWidth * 0.9
 	canvas.height = canvas.width / 2.031
-	screen.fillStyle = "palevioletred"
+	screen.fillStyle = "yellow"
 	screen.fillRect(0, 0, canvas.width, canvas.height)
 	console.log("W:", canvas.width, "H:", canvas.height)
 	// x = canvas.width / 2
